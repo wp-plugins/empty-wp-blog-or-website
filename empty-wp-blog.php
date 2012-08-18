@@ -24,7 +24,6 @@ if(is_admin()) {
 		echo "<h3>Deleting posts/pages.. please wait...</h3>";
 
 		$options = array(
-			'numberposts'     => 50,
 			'offset'          => 0,
 			'orderby'         => 'post_date',
 			'order'           => 'DESC',
